@@ -1,0 +1,208 @@
+
+@media screen  and (max-width:1240px) {
+
+.hero{
+    width: 100%;
+ padding: 2rem 1rem;
+ margin: auto;
+}
+.hero-txt{
+    padding-right: 0;
+}
+nav{
+    padding: 2rem 0.9rem;
+}
+.img1{
+    width:  50%;
+}
+.img2{
+    width: 20%;
+}
+.hero-img{
+    width: 100%;
+}
+.blob-pur{
+    width: 80%;
+}
+
+
+.mob2{
+    margin-top: -1rem;
+     width: 30%;
+}
+.circle{
+   display: none;
+}
+.logo{
+    width:20%;
+}
+} 
+
+
+@media screen  and (max-width:769px){
+header{
+ height: 100%;
+ width: 100%;
+ }
+.circle{
+display: none;
+}
+nav{
+ padding: 2rem 1rem;
+}
+.logo{
+    width: 40%;
+}
+#close-menu, #open-menu{
+display: block;
+}
+#close-menu{
+margin: 2rem 2rem;
+text-align: right;
+}
+.menu{
+position: absolute;
+height: 100%;
+width: 300px;
+background-color:#111826;
+left:-400px;
+top: 0;
+overflow: hidden;
+z-index: 2;
+transition: .5s all;
+text-align: center;
+}
+
+.menu ul{
+display: block;
+margin: 5rem auto 0 auto;
+
+}
+.menu li a{
+    line-height: 2;
+    font-size: 3rem;
+}
+
+.hero{
+  flex-direction: column; 
+  margin: auto;
+  width: 100%; 
+  padding:2rem 1rem;
+}
+.flex-one, .blob-pur{
+    display: none;
+}
+.desktop{
+    display:block;
+text-align: center;
+}
+
+.img1{
+    width: 70%;
+}
+.img2{
+
+    width:20% ;
+}
+
+.hero-img,
+.sect-2-content{
+    order: -1;
+}
+.hero-img{
+    width: 100%;
+}
+.hero-txt,
+.sect-container {
+    grid-template-columns: repeat(1,1fr);
+}
+.hero-txt h1{
+    padding: 1rem 0;
+}
+.hero-txt{
+    padding: 0;
+    width: 100%;
+}
+
+.sect-2-content{
+    padding: 2rem 0;
+    margin: auto;
+}
+
+.hero-txt p{
+    margin-bottom: 1rem;
+}
+.hero-txt .circle{
+    width: 20%;
+}
+.hero-button{
+    width: 70%;
+}
+.yellow-bg img{
+    width: 100%;
+}
+.image-2 img{
+    width: 100%;
+    margin: auto;
+}
+.logos img{
+    width: 20%;
+}
+.yellow-blob{
+    right: -5%;
+}
+.whatsapp-img{
+    right: -2%;
+}
+.green-blob{
+    left: -5%;
+}
+.fb-img{
+    left: -2%;
+}
+.review h2{
+width: 100%;
+   
+}
+
+.sect-two, .review{
+    width: 100%;
+    padding: 0 1rem;
+}
+
+
+.svg1{
+    position: absolute;
+    right: 20%;
+    top: 20%;
+    width: 17%;
+    z-index: 1;
+}
+.svg2{
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    z-index: 999px;
+    width: 17%;
+}
+
+.sign-up{
+    flex-direction: column;
+    width: 100%;
+   padding: 2rem 1rem;
+}
+
+footer{
+    padding: 4rem 1rem 1rem 1rem;
+}
+.footer-container{
+ grid-template-columns: repeat(1,1fr);
+
+}
+
+.footer-txt, .footer-logo{
+    margin-bottom: 1.5rem;
+}
+
+
+}
